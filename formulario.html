@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/formulario.css"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+</head>
+<body>
+    <!--titulo del formulario-->
+    <h1>¡Queremos conocer tu opinión!</h1>
+    <h3>Completa el siguiente formulario y recibirás una sorpresa por correo electrónico</h3>
+<!--inputs datos de contacto-->
+    <label for ="nombre">Nombre:</label>
+        <input type = "text" name="nombre" id ="nombre" placeholder="Ingresa tu nombre"></label>
+        <label for ="email" >Email</label>
+ <input type ="email" name ="email" id ="email" placeholder=" Ingresa tu correo">
+<!-- radios-->
+ <h3>¿Qué te pareció la reseña?</h3>
+<label for="bajo-nivel">No me gustó</label>
+ <input type="radio" name="survey" id="bajo-nivel">
+<label for="medio-nivel">Buena</label>
+<input type="radio" name="survey" id="medio-nivel">
+<label for="alto-nivel">Me encantó!</label>
+<input type="radio" name="survey" id="alto-nivel">
+<!--checkbox-->
+<h3>¿Aceptas las cookies?</h3>
+<label>De acuerdo:</label>
+<input type ="checkbox" name ="verificación" id ="verificación">
+
+<h3>Acepto terminos y condiciones</h3>
+<label>De acuerdo:</label>
+<input type ="checkbox" name ="terminos-condiciones" id ="terminos-condiciones">
+
+<button class="boton-enviar">Enviar</button>
+
+</body>
+</html>
