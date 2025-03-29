@@ -1,2 +1,2 @@
 # mi-banda-favorita
-tarea 
+## Tarea práctica HTML y CSS. 
